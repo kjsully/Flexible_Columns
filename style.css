@@ -1,0 +1,23 @@
+.row {
+    display: flex;
+}
+
+.col, .col1, .col2, .col-2, .col-3 {
+    flex: 1;
+    background-color: blueviolet;
+    margin: 5px;
+    padding: .5em
+
+}
+
+.col2 {
+    flex: 2;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
+}
